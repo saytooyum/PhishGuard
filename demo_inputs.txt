@@ -1,0 +1,54 @@
+PhishGuard — Demo Inputs
+========================
+These are fictional examples for demonstrating the URL and Email analyzers.
+None of these addresses or organisations are real.
+
+
+== URL ANALYZER ==
+
+--- Low Risk ---
+https://example.com
+https://news.example.org/article/how-to-stay-safe-online
+
+--- Medium Risk ---
+http://example.com/account/update
+http://bit.ly/demo-short-link
+
+--- High Risk ---
+http://192.168.0.1/login/verify
+http://paypal.com.evil-demo.xyz/confirm/password?token=abc123xyz456789demo
+
+
+== EMAIL ANALYZER ==
+
+--- Low Risk ---
+Sender: alice@example.com
+Body:
+Hi Bob,
+Just a reminder that our team lunch is tomorrow at noon.
+Looking forward to catching up!
+Best, Alice
+
+---
+
+--- Medium Risk ---
+Sender: offers@shop-demo.com
+Body:
+Dear Customer,
+You have unused reward points that expire soon.
+Click here to redeem them: http://shop-demo.com/rewards
+Thanks,
+The Shop Team
+
+---
+
+--- High Risk ---
+Sender: support@gmail.com
+Body:
+URGENT: Your PayPal account has been suspended due to unusual activity.
+Verify your identity immediately to avoid permanent closure.
+Confirm your password and credit card number here: http://192.168.0.1/verify/account
+Failure to act within 24 hours will result in legal action.
+PayPal Security Team
+
+---
